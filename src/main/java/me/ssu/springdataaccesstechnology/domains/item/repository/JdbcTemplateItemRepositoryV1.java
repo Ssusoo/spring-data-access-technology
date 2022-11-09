@@ -31,7 +31,6 @@ public class JdbcTemplateItemRepositoryV1 implements ItemRepository {
 		this.template = new JdbcTemplate(dataSource);
 	}
 
-
 	@Override
 	public Item save(Item item) {
 		String sql = "insert into item (item_name, price, quantity) values (?, ?, ?)";
@@ -62,12 +61,20 @@ public class JdbcTemplateItemRepositoryV1 implements ItemRepository {
 				itemId);
 	}
 
+	/**
+	 * 데이터 하나를 조회
+	 * 결과가 없을 때 Optional.empty를 반환
+	 * @param id
+	 * @return
+	 */
 	@Override
 	public Optional<Item> findById(Long id) {
 		String sql = "select id, item_name, price, quantity from item where id = ?";
 		try {
 			Item item = template.queryForObject(sql, itemRowMapper(), id);
 			return Optional.of(item);
+
+			// 결과가 없으면 예외 던지기
 		} catch (EmptyResultDataAccessException e) {
 			return Optional.empty();
 		}
