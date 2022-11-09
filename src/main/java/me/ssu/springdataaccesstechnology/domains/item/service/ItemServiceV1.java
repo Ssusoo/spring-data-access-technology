@@ -1,4 +1,4 @@
-package me.ssu.springdataaccesstechnology.itemservice.service;
+package me.ssu.springdataaccesstechnology.domains.item.service;
 
 import lombok.RequiredArgsConstructor;
 import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
