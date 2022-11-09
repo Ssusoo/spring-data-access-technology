@@ -1,4 +1,4 @@
-package me.ssu.springdataaccesstechnology.itemservice.domain;
+package me.ssu.springdataaccesstechnology.domains.item.domain;
 
 import lombok.Data;
 

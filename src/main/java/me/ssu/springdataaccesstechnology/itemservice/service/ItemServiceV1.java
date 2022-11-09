@@ -1,7 +1,7 @@
 package me.ssu.springdataaccesstechnology.itemservice.service;
 
 import lombok.RequiredArgsConstructor;
-import me.ssu.springdataaccesstechnology.itemservice.domain.Item;
+import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
 import me.ssu.springdataaccesstechnology.itemservice.repository.ItemRepository;
 import me.ssu.springdataaccesstechnology.itemservice.repository.ItemSearchCond;
 import me.ssu.springdataaccesstechnology.itemservice.repository.ItemUpdateDto;

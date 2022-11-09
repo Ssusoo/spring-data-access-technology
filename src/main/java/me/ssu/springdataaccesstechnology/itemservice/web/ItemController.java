@@ -1,6 +1,6 @@
 package me.ssu.springdataaccesstechnology.itemservice.web;
 
-import me.ssu.springdataaccesstechnology.itemservice.domain.Item;
+import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
 import me.ssu.springdataaccesstechnology.itemservice.repository.ItemSearchCond;
 import me.ssu.springdataaccesstechnology.itemservice.repository.ItemUpdateDto;
 import me.ssu.springdataaccesstechnology.itemservice.service.ItemService;

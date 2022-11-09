@@ -1,6 +1,6 @@
 package me.ssu.springdataaccesstechnology.itemservice;
 
-import me.ssu.springdataaccesstechnology.itemservice.domain.Item;
+import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
 import me.ssu.springdataaccesstechnology.itemservice.repository.ItemRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

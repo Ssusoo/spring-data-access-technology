@@ -1,6 +1,6 @@
 package me.ssu.springdataaccesstechnology.itemservice.repository;
 
-import me.ssu.springdataaccesstechnology.itemservice.domain.Item;
+import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
 
 import java.util.List;
 import java.util.Optional;
