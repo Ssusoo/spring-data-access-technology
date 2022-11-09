@@ -9,5 +9,4 @@ public class SpringDataAccessTechnologyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDataAccessTechnologyApplication.class, args);
 	}
-
 }
