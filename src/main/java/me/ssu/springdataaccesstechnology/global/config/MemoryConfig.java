@@ -2,7 +2,7 @@ package me.ssu.springdataaccesstechnology.global.config;
 
 
 import me.ssu.springdataaccesstechnology.domains.item.repository.ItemRepository;
-import me.ssu.springdataaccesstechnology.itemservice.repository.memory.MemoryItemRepository;
+import me.ssu.springdataaccesstechnology.domains.item.repository.MemoryItemRepository;
 import me.ssu.springdataaccesstechnology.domains.item.service.ItemService;
 import me.ssu.springdataaccesstechnology.domains.item.service.ItemServiceV1;
 import org.springframework.context.annotation.Bean;
