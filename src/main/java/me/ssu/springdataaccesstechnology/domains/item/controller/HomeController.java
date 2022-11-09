@@ -1,4 +1,4 @@
-package me.ssu.springdataaccesstechnology.itemservice.web;
+package me.ssu.springdataaccesstechnology.domains.item.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
