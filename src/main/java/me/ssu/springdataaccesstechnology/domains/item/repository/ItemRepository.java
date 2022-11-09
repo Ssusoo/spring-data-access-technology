@@ -1,4 +1,4 @@
-package me.ssu.springdataaccesstechnology.itemservice.repository;
+package me.ssu.springdataaccesstechnology.domains.item.repository;
 
 import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
 import me.ssu.springdataaccesstechnology.domains.item.dto.ItemSearchCond;

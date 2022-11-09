@@ -2,7 +2,7 @@ package me.ssu.springdataaccesstechnology.itemservice.service;
 
 import lombok.RequiredArgsConstructor;
 import me.ssu.springdataaccesstechnology.domains.item.domain.Item;
-import me.ssu.springdataaccesstechnology.itemservice.repository.ItemRepository;
+import me.ssu.springdataaccesstechnology.domains.item.repository.ItemRepository;
 import me.ssu.springdataaccesstechnology.domains.item.dto.ItemSearchCond;
 import me.ssu.springdataaccesstechnology.domains.item.dto.ItemUpdateDto;
 import org.springframework.stereotype.Service;

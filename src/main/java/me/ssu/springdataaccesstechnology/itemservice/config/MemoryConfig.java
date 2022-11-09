@@ -1,7 +1,7 @@
 package me.ssu.springdataaccesstechnology.itemservice.config;
 
 
-import me.ssu.springdataaccesstechnology.itemservice.repository.ItemRepository;
+import me.ssu.springdataaccesstechnology.domains.item.repository.ItemRepository;
 import me.ssu.springdataaccesstechnology.itemservice.repository.memory.MemoryItemRepository;
 import me.ssu.springdataaccesstechnology.itemservice.service.ItemService;
 import me.ssu.springdataaccesstechnology.itemservice.service.ItemServiceV1;
