@@ -1,4 +1,4 @@
-package me.ssu.springdataaccesstechnology.itemservice.config;
+package me.ssu.springdataaccesstechnology.global.config;
 
 
 import me.ssu.springdataaccesstechnology.domains.item.repository.ItemRepository;
