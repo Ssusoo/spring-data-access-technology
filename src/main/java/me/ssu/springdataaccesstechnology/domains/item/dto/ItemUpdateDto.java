@@ -1,4 +1,4 @@
-package me.ssu.springdataaccesstechnology.itemservice.repository;
+package me.ssu.springdataaccesstechnology.domains.item.dto;
 
 import lombok.Data;
 
