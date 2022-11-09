@@ -34,6 +34,7 @@ public class MemoryItemRepository implements ItemRepository {
         findItem.setQuantity(updateParam.getQuantity());
     }
 
+	// Optional : 값이 있을 수도 있고 없을 수도 있는
     @Override
     public Optional<Item> findById(Long id) {
         return Optional.ofNullable(store.get(id));
